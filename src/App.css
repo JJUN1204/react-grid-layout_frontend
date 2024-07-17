@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -51,7 +51,7 @@
 
 .grid-item {
   background: #ffffff;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
   border-radius: 4px;
   padding: 3px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -95,3 +95,88 @@
   margin: 0 30%;
 }
 
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #009688;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+header .navbar a:hover {
+  background-color: #575757;
+}
+
+.container {
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.grid-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  /* padding: 20px; */
+  position: relative;
+}
+
+.grid-item h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.grid-item .remove {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  padding: 0px 0px 0px 0px;
+}
+
+.grid-item .remove:hover {
+  background-color: #c82333;
+} 
