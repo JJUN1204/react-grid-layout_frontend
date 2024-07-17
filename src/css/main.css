@@ -34,6 +34,20 @@
     gap: 10px;
 }
 
+.card-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pin-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 8px; /* 아이콘과 제목 사이의 간격 조절 */
+  }
+  
+
 #header button {
     background: none;
     border: none;
@@ -64,7 +78,7 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 30px;
     flex: 1;
     /* display: flex; */
     flex-direction: column;
